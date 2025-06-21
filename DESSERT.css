@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+:root{
+    --black: #192a56;
+    --light-color: #666; 
+    --whitepink:#ffd5c0;
+    --blackpink:#FF748C;
+    --box-shadow: 0 .5rem  1.5rem rgba(0,0,0,.1);
+    --main-color:#da6285;
+    --pink-color:#ff8e9d;
+    --pink-opacity:#ffe6e9;
+} 
+*{
+    font-family:'Nunito',sans-serif ;
+    margin: 0;padding: 0;
+    text-decoration: none;
+    outline: none;border: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    transition:  .2s linear;
+    }  
+
+
+
+html{
+    font-size: 62.5%;
+}
+.main{
+    
+    margin: 0 auto; 
+    padding: 3rem 2rem;
+    
+}
+.main .title{
+    padding-top: 10rem;
+    font-size: 3.5rem;
+    color: var(--pink-color);
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main .cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem,.5fr));
+    gap: 2rem;
+}
+.main .cont .dishes{
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    width: 345px;
+    background-color:#fff;
+    
+}
+.main .cont .dishes img{
+    background-color: white;
+    padding-top: 2rem;
+     width: 30rem; 
+    height: 25rem; 
+    
+}
+.main .cont .dishes h3{
+    background-color: white;
+    font-size: 1.7rem;
+    color: black;
+}
+.main .cont .dishes .price{
+    color:var(--black);
+    font-weight: bolder;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+
+
+
+ .main .cont .dishes img:hover{
+    width: 100%;
+    margin: 1rem 0;
+ }
+
+ .main .cont .dishes a.fa-heart {
+    position: absolute;
+    top: 2.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 5rem;width: 5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.main .cont .dishes a.fa-heart:hover{
+    background: var(--pink-color);
+    color: #fff;
+}
+
+
+.main .cont .dishes a.fa-heart{
+    right: -15rem;
+}
+
+
+.main .cont .dishes:hover a.fa-heart{
+    right: .5rem;
+}
+
+.cart-btn{
+    padding: 1rem 2rem;
+    height: 5rem;width: 5rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    background-color:#ff9baa ;
+    color: black;
+    border-radius: 3rem;
+}
+.cart-btn:hover{
+    background: #ff697f;
+    
+}
+

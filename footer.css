@@ -1,0 +1,40 @@
+.box-container-footer {
+    /* background-image: url("./imgs/footer\ background2.jpg"); */
+    background-image: url("imgs/footer\ background2.jpg");
+background-size: cover;
+
+}
+.box-container-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+ .box-container-footer .box h3{
+    font-size: 40px;
+    color: black;
+}
+.box-container-footer .box p{
+   display: block;
+   font-size: 25pX;
+   color: black;
+} .box-container-footer .box1 h3{
+    font-size: 40px;
+    color: black;
+}
+.box-container-footer .box1 a{
+   display: block;
+   font-size: 30pX;
+   text-decoration:none;
+   color: black;
+}
+.box-container-footer .box1   a:hover{
+    color: rgb(137, 207, 240);
+    text-decoration: underline;
+ }
+ .copyright{
+     text-align: center; 
+    border-top: 1px solid ;
+    font-size: 15PX;
+    padding-top: 30PX;
+  
+ }
